@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet"
+			  href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+		<h2> Demo Table Of Candidates <h2>
+		<table class="candidates" id="candidates_example">
+		  <thead>
+			<tr>
+			  <th>Name</th>
+			  <th>Skills</th>
+			</tr>
+		  </thead>
+		  <tr>
+			<td>Cirpo</td>
+			<td>JavaScript, Docker</td>
+		  </tr>
+		  <tr>
+			<td>Louis</td>
+			<td>Java, AEM</td>
+		  </tr>
+		  <tr>
+			<td>Nermin</td>
+			<td>.NET, Azure</td>
+		  </tr>
+		</table>
+
+	<button id="filter" onclick="filterbutton()"> Filter </button> 
+	<input type="text" id="skill" value="JavaScript">
+	
+    <h2 id="filtertitle"> Candidates (Use the filter button to search) <h2>
+  </div>
+
+  	<!--
+	<div id="addcandidate">	
+		<label> Candidate Name </label>
+		<input type="text" id="newname"> 
+		
+		<label> Skills </label>
+		<input type="text" id="newskills">
+		
+		<button id="addbutton" onclick="addFunction()"> Add </button>
+	</div>
+	-->
+  
+  <script src="functions.js"> </script>
+</body>
+
+</html>
